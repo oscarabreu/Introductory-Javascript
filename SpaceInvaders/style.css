@@ -1,0 +1,50 @@
+/* 
+	.grid has a pre-defined height/width
+	for our border. These parameters will
+	also help us define a boundary for both
+	the "invaders" and our "ship". When we 
+	append our "invaders" as blocks, flex
+	and wrap will give us a grid-like property
+	with a 2-D array.
+
+*/
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.grid {
+	width: 300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* A 15x15 grid with flex-wrap
+	each grid-div being 20x gives us
+	20*15 = 300px!
+*/
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-color: purple;
+	border-radius: 10px;
+}
+
+.shooter {
+	background-color: green;
+}
+
+.laser {
+	background-color: orange;
+}
+
+.boom {
+	background-color: red;
+}

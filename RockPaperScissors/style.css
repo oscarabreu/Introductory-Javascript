@@ -1,0 +1,15 @@
+/* Not much to say here. Assigning colors for our headings using the "class" selector ".". */
+.computer-choice-heading {
+    color: red;
+}
+.user-choice-heading {
+    color: blue;
+}
+.results-heading {
+    color: green;
+    font-weight: bold;
+}
+h2 {
+    text-decoration: none;
+    font-weight: normal;
+}

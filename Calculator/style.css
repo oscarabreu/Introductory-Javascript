@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    /* font-family: 'Oxygen', sans-serif; */
+    font-weight: normal;
+}
+
+body {
+    justify-content: center;
+    padding-top:100px;
+    padding-bottom:100px;
+    margin:0;
+    background-color: white;
+    align-items: center;
+}
+
+page {
+    justify-content: center;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "valueBox valueBox valueBox valueBox"
+    "clear clear back divide"
+    "seven eight nine multiplier"
+    "four five six minus"
+    "one two three plus"
+    "zeroe zeroe zeroe equal";
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.valueBox {
+    padding: 1px;
+    grid-area: valueBox;
+    background-color: black;
+} 
+
+.value {
+    background-color: black;
+    color: white;
+    font-weight: normal;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom:18px;
+    margin-right:10px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.greybox {
+    display: block;
+    background-color: #d8d9db;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.greybox:hover {
+    background-color: #EEEEEE;
+}
+
+.greybox:active {
+    background-color: #DDDEEE;
+}
+
+.orangebox {
+    display: block;
+    background-color: #df974c;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.orangebox:hover {
+    background-color: #dfb07e;;
+}
+
+.orangebox:active {
+    background-color: #cfb07e;
+}
+
+.blackdigit {
+    font-size: 45px;
+    font-weight: normal;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.whitedigit {
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.clear {
+    grid-area: clear;
+    border-right: black 3px solid;
+    border-bottom: black 3px solid;
+}
+
+.back {
+    grid-area: back;
+    border-bottom: black 3px solid;
+    border-right: black 3px solid;
+}
+
+.divide {
+    grid-area: divide;
+    border-bottom: black 3px solid;
+}
+
+.seven {
+    grid-area: seven;
+    border-bottom: black 3px solid;
+    border-right: black 3px solid;
+}
+
+.eight {
+    grid-area: eight;
+    border-bottom: black 3px solid;
+    border-right: black 3px solid;
+}
+
+.nine {
+    grid-area: nine;
+    border-bottom: black 3px solid;
+    border-right: black 3px solid;
+}
+
+.multiplier {
+    grid-area: multiplier;
+    border-bottom: black 3px solid;
+}
+
+.four {
+    grid-area: four;
+    border-bottom: black 3px solid;
+    border-right: black 3px solid;
+}
+
+.five {
+    grid-area: five;
+    border-bottom: black 3px solid;
+    border-right: black 3px solid;
+}
+
+.six {
+    grid-area: six;
+    border-bottom: black 3px solid;
+    border-right: black 3px solid;
+}
+
+.minus {
+    grid-area: minus;
+    border-bottom: black 3px solid;
+}
+
+.one {
+    grid-area: one;
+    border-bottom: black 3px solid;
+    border-right: black 3px solid;
+}
+
+.two {
+    grid-area: two;
+    border-bottom: black 3px solid;
+    border-right: black 3px solid;
+}
+
+.three {
+    grid-area: three;
+    border-bottom: black 3px solid;
+    border-right: black 3px solid;
+}
+
+.plus {
+    grid-area: plus;
+    border-bottom: black 3px solid;
+}
+
+.zeroe {
+    grid-area: zeroe;
+    border-right: black 3px solid;
+}
+
+.equals {
+    grid-area: equal;
+}

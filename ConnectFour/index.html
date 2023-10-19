@@ -1,0 +1,75 @@
+<!--Basic HTML Boilerplate-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--"Title of game, with h4 representing the current-player. Upon click we will
+        edit this "span' element to alternate between Player-2 and Player-1."-->
+    <h1>This is the best ConnectFour game on the Internet.</h1>
+    <h4>The current player is: Player <span id = "current-player">1</span></h4>
+    <h4 id = "result">Active</h4>
+    <script src = "ConnectFour.js" charset = "utf-8"></script>
+    <!--The ConnectFour game represents a grid with 6 rows x 7 columns. We numerate
+        each grid-tile with a div. Underneath the 42 tiles connect-four grid there are 7 more
+        empty div classes that are simply helper grids to allow us to apply a "must be taken below"
+        rule for any user to place their tile. By setting the div class taken, it allows us to 
+        place the bottom 7 tiles on our grid. There are smarter ways to do this such as assigning
+        an "eligible" class above any element tagged by player-1 or player-2 but this will suffice for now. Blah Blah Blah -->
+    <div class = "grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class = "taken"></div>
+        <div class = "taken"></div>
+        <div class = "taken"></div>
+        <div class = "taken"></div>
+        <div class = "taken"></div>
+        <div class = "taken"></div>
+        <div class = "taken"></div>
+    </div>
+</body>
+</html>

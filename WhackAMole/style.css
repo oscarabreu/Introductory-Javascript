@@ -1,0 +1,37 @@
+
+/* Arbitrary font */
+* {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+h1,h2 {
+    text-align: center;
+    width:618px;
+}
+.square {
+    height: 200px;
+    width: 200px;
+    border: 2px black solid;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 618px;
+    width: 618px;
+}
+/* This is an important piece of the program.
+    By default, this selector is not applied to
+    any of our div grid tags. This selector applies
+    our image 'mole.jpg' to the background of  
+    the entire grid element. When this css selector
+    is applied, our singular grid will inherit this image
+    indicating to that this grid can be clicked
+    to increment the resultScore.
+*/
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}

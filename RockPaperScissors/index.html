@@ -1,0 +1,27 @@
+<!--Boilerplate Code-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--I decided to use ID's for 'computer-choice', 'user-choice' and 'results' as getElementById returns a single DOM element whose ID matches your query.
+    However, getElementsByClassName returns an HtmlCollection - an array-like structure containing the DOM elements that matched your query. To not have to index this array,
+    I stuck to single-element ID's :). I used classes for others as those are generally static elements that are being modified by CSS. -->
+    <h2 class = "computer-choice-heading"><strong>Computer Choice:</strong></h2>
+    <h2 id = "computer-choice"> </h2>
+    <h2 class = "user-choice-heading"><strong>User Choice:</strong></h2>
+    <h2 id = "user-choice"> </h2>
+    <h2 class = "results-heading">Results:</h2>
+    <h2 id = "results"> 0</h2>
+
+    <!--I used buttons here instead of regular links as links take the user to a new location, but buttons trigger some action. For a game, buttons were best here.  -->
+    <button id = "Rock">Rock</button>
+    <button id = "Paper">Paper</button>
+    <button id = "Scissors">Scissors</button>
+    <script src = "RPS.js"></script>
+</body>
+</html>

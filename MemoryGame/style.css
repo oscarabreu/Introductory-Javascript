@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+/*
+    flex and wrap in combination with a predefined width and height
+    will cause our div img elements to wrap around a box area of 300x400
+    As our images are 100x100 each, this should ift perfectly. However,
+    from a UI perspective this is awful, some spacing between divs is 
+    always recommended.
+
+    */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+.content {
+    justify-content: center;
+    align-items: center;   
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

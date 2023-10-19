@@ -1,0 +1,41 @@
+/*
+    This .grid class has a predefined height and width
+    that allows us to create a 'box' that perfectly fits our
+    row-wrapped 42 div elements. The 7 elements tagged with
+    'taken' overflow and are not visible but are underneath the 
+     black box.
+*/
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 360px;
+    width: 420px;
+}
+
+/*
+    Setting the sizing of each grid so that 
+    it fits perfectly within the 6x7 connect four grid.
+    (i.e 60*6 = 360, 60*7 = 420;)
+*/
+.grid div {
+    height:60px;
+    width:60px;
+}
+/* 
+    In our JS code, when any player clicks on a valid
+    tile, we want to assign the "player-one' or 'player-two' selector 
+    to change the color of the grid. This is what these
+    selectors do. 
+    
+*/
+
+.player-one {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.player-two {
+    background-color: blue;
+    border-radius: 10px;
+}
