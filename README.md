@@ -2,7 +2,7 @@
 Projects for developing fundamentals - very barebones. Derived from various instructors
 
 ## A. Newsletter
-![Screenshot 2023-10-19 at 6 24 01 PM](https://github.com/oscarabreu/Introductory-Javascript/assets/99779654/f1f5d91c-58e5-49a5-ad86-5500a59241cd)
+
 
 ## B. Checkout
 ![Screenshot 2023-10-12 at 6 01 48 PM](https://github.com/oscarabreu/Introductory-Javascript/assets/99779654/641538b1-9e6f-4930-8df0-037b428732f8)
@@ -26,13 +26,13 @@ Projects for developing fundamentals - very barebones. Derived from various inst
 ![Screenshot 2023-10-19 at 6 43 32 PM](https://github.com/oscarabreu/Introductory-Javascript/assets/99779654/64202cc9-0b1a-4a1f-b2dd-ecdf82a088ea)
 
 ## I. Space-Invaders
-![Screenshot 2023-10-19 at 6 45 30 PM](https://github.com/oscarabreu/Introductory-Javascript/assets/99779654/800c8bdc-d387-4707-9bfb-036aa3df62f5)
+![Screenshot 2023-10-19 at 6 45 30 PM](https://github.com/oscarabreu/Introductory-Javascript/assets/99779654/cde4310a-28e3-43ee-af2a-95329c23941b)
 
 ## J. Tetris
-![Screenshot 2023-10-19 at 6 49 20 PM](https://github.com/oscarabreu/Introductory-Javascript/assets/99779654/969d71e5-946b-4d52-8409-c7a8b8085578)
+![Screenshot 2023-10-19 at 7 14 50 PM](https://github.com/oscarabreu/Introductory-Javascript/assets/99779654/0e690cab-079b-4b9f-90f9-21f81a8b2314)
 
 ## K. Whack-A-Mole  
-![Screenshot 2023-10-19 at 6 50 21 PM](https://github.com/oscarabreu/Introductory-Javascript/assets/99779654/679c0c79-f83c-4cf6-aa15-8c79eea7f80f)
+![Screenshot 2023-10-19 at 6 50 21 PM](https://github.com/oscarabreu/Introductory-Javascript/assets/99779654/5c61d324-69db-4ff6-82e7-f236c12821aa)
 
 
 ## Acknowledgements
